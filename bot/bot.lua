@@ -86,7 +86,7 @@ if not tostring(SUDO):match('%d+') then
 	 	io.write('\n\27[1;33mادخل الان اسم البوت الذي تريده 👇 \27[0;39;49m\n')
 	local botname = io.read()
 	if botname =="" then
-  botname = "زعيم"
+  botname = "وسكي"
 end
 io.write('\n\27[1;33mادخل معرف المطور 👇 \27[0;39;49m\n')
 	local sudouser = io.read()

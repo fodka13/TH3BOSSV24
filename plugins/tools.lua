@@ -526,7 +526,7 @@ end
 if matches[1] == 'المدراء' and is_sudo(msg) then
 return adminlist(msg)
 end
-if matches[1] == 'زعيم غادر' and is_sudo(msg) then
+if matches[1] == 'وسكي غادر' and is_sudo(msg) then
 tdcli.sendMessage(msg.to.id, msg.id, 1, 'اوك باي 😢💔👮🏻‍♀️', 1, 'html')
 tdcli.changeChatMemberStatus(msg.to.id, our_id, 'Left', dl_cb, nil)
 botrem(msg)
@@ -872,7 +872,7 @@ patterns = {
 "^(اضافه) (@[%a%d%_]+)$",
 "^(راسل) (@[%a%d%_]+) (.*)$",
 "^(راسل) (%d+) (.*)$",
-"^(زعيم غادر)$",
+"^(وسكي غادر)$",
 "^(مواليدي) (.+)/(.+)/(.+)",
 "^!!tgservice (.+)$",
 

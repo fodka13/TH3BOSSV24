@@ -180,7 +180,7 @@ local function run(msg, matches)
   for k, v in pairs( plugins_names( )) do  
       -- get the name 
       v = string.match (v, "(.*)%.lua") 
-      		tdcli.sendDocument(msg.chat_id_, msg.id_,0, 1, nil, "./plugins/"..v..".lua", '◈￤ الملف مقدم من قناه  الـزعـيـم  \n◈￤ ┇ تابع قناه السورس @BP_BP\n👨🏽‍🔧', dl_cb, nil)
+      		tdcli.sendDocument(msg.chat_id_, msg.id_,0, 1, nil, "./plugins/"..v..".lua", '◈￤ الملف مقدم من قناه  الوسكي  \n◈￤ ┇ تابع قناه السورس @BP_BP\n👨🏽‍🔧', dl_cb, nil)
 
   end 
 else
@@ -188,7 +188,7 @@ local file = matches[2]
   if not plugin_exists(file) then 
     return '◈￤  لا يوجد ملف بهذا الاسم .\n\n'
   else 
-tdcli.sendDocument(msg.chat_id_, msg.id_,0, 1, nil, "./plugins/"..file..".lua", '◈￤ الملف مقدم من قناه  الـزعـيـم  \n◈￤ ┇ تابع قناه السورس @BP_BP\n👨🏽‍🔧', dl_cb, nil)
+tdcli.sendDocument(msg.chat_id_, msg.id_,0, 1, nil, "./plugins/"..file..".lua", '◈￤ الملف مقدم من قناه  الوسكي  \n◈￤ ┇ تابع قناه السورس @BP_BP\n👨🏽‍🔧', dl_cb, nil)
 end
 end
 end
@@ -208,7 +208,7 @@ end
 if matches[1]:lower() == "ssp" and matches[2] and matches[3] then
 if tonumber(msg.from.id) ~= tonumber(SUDO) then return "◈￤ هذا الاوامر للمطور الاساسي فقط " end
 local send_file = "./"..matches[2].."/"..matches[3]
-tdcli.sendDocument(msg.chat_id_, msg.id_,0, 1, nil, send_file, '◈￤ الملف مقدم من قناه  الـزعـيـم  \n◈￤ ┇ تابع قناه السورس @BP_BP\n👨🏽‍🔧', dl_cb, nil)
+tdcli.sendDocument(msg.chat_id_, msg.id_,0, 1, nil, send_file, '◈￤ الملف مقدم من قناه  الوسكي  \n◈￤ ┇ تابع قناه السورس @BP_BP\n👨🏽‍🔧', dl_cb, nil)
 end
 
 if (matches[1] == 'رفع النسخه الاحتياطيه' or matches[1] == 'up') and is_sudo(msg) then
@@ -303,7 +303,7 @@ end
 end
 
 if (matches[1] == 'اصدار السورس' or matches[1] == 'boss') then
-return '◈￤ اصدار سورس الزعيم `V'..update..'` 🍃'
+return '◈￤ اصدار سورس الوسكي `V'..update..'` 🍃'
 end
 
 if (matches[1] == 'تحديث السورس' or matches[1] == 'update') and is_sudo(msg) then

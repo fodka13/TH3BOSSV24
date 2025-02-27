@@ -236,7 +236,7 @@ return [[
 ◈￤ - https://telegram.org/deactivate
 ]] 
 elseif w== 'ايدي' and msg.to.type == 'pv' then
-return "◈￤ ايدي البوت : "..our_id.. "\n\n ◈￤ ايدي حسابك : "..msg.from.id.. "\n ◈￤مـطـور الـسـورس\n الزعيم محمد  > @BP_BP "
+return "◈￤ ايدي البوت : "..our_id.. "\n\n ◈￤ ايدي حسابك : "..msg.from.id.. "\n ◈￤مـطـور الـسـورس\n الوسكي محمد  > @BP_BP "
 elseif w=="رتبتي" then
 local rank
 if is_sudo(msg) then
@@ -414,7 +414,7 @@ elseif not is_sudo(msg) and w == "احبك" or w=="حبك" then
 return  lovm[math.random(#lovm)]  
 elseif not is_sudo(msg) and w == "تحبني" then
 return  lovm[math.random(#lovm)]  
-elseif w== "زعيم"  then
+elseif w== "وسكي"  then
 return  ss97[math.random(#ss97)]  
 elseif w== "غني" or w=="غنيلي" then
 return  song[math.random(#song)] 
